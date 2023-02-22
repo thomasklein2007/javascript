@@ -1,0 +1,60 @@
+Javascript is een programmeertaal.
+Je gebruikt Javascript voor het ontwikkelen van interactieve webapplicaties en het verrijken van de gebruikerservaring op websites.
+De zin "Javascript is a high-level programming language" betekent dat Javascript een programmeertaal is die op een hoog niveau van abstractie is geschreven en dat het voor de ontwikkelaar gemakkelijker te begrijpen is dan lagere programmeertalen.
+Een webapplicatie is een softwaretoepassing die via het internet toegankelijk is.
+De grootste update in Javascript en het begin van "Moderne Javascript" was de introductie van ECMAScript 6 (ES6) in 2015.
+Je voegt een Javascript-bestand toe aan je HTML-bestand door een script-tag te gebruiken en de link naar het Javascript-bestand op te nemen in de src-attribuut.
+Een "value" is de waarde die aan een bepaalde variabele is toegewezen.
+Een variabele is een plek in de computergeheugen waar een waarde kan worden opgeslagen.
+Een variabelenaam is de naam die aan een variabele is gegeven, zodat je er gemakkelijk naar verwijzen kunt in je code.
+Dit kan het beste worden weergegeven met een tekening, maar in grote lijnen wordt een value opgeslagen in een variabele die een unieke variabelenaam heeft.
+Een conventie is een afgesproken manier van doen. Het betekent voor programmeren in het algemeen en Javascript in het bijzonder dat er bepaalde regels zijn voor hoe code moet worden geschreven en georganiseerd, zodat het voor andere ontwikkelaars gemakkelijker te begrijpen en te onderhouden is.
+De juiste naamgeving voor de variabele is "prachtigleven".
+De naamgeving "3hello" is niet syntactisch correct.
+Een syntactische fout is een fout in de structuur van de code, zoals een verkeerd gebruikte taalconstructie.
+Een semantische fout is een fout in de betekenis van de code, zoals het gebruik van een ongeldige operator of het verwijzen naar een niet-bestaande variabele.
+Het verschil tussen een syntactische en een semantische fout is dat een syntactische fout betrekking heeft op de structuur van de code, terwijl een semantische fout betrekking heeft op de betekenis
+int
+om  comentaar te krijgen om comentaar te geven en om gomentaar te geven op hoe slecht het comentaar is
+de een print herder en de ander print de value van herder
+een probleem
+a=1   b=3   c=2
+nee, omdat ik dat vind
+nee, omdat ik dat vind
+is wat operate
+de een heeft een extra =
+20
+75
+5 > 15
+-10
+5 = 15
+15
+5 <= 15
+10
+6
+75
+5
+een operator die predecent
+addition
+void
+assignment
+
+
+tekst
+string 
+jorn is stupid
+jorn is briljant
+hello jorn
+i jorn
+const
+een structure die controled
+omdat het een structure is die controlled
+
+
+de naam
+int
+string
+13
+8
+112
+360

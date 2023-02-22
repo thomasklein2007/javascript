@@ -1,0 +1,54 @@
+1.  const dayOfWeek = new Date().getDay(); // Get the current day of the week (0 = Sunday, 1 = Monday, etc.)
+
+    let dish;
+
+    switch(dayOfWeek) {
+    case 1:
+    case 4:
+    case 5:
+        dish = "falafel with salad";
+        break;
+    case 2:
+    case 3:
+        dish = "spinach";
+        break;
+    case 0:
+    case 6:
+        dish = "lentil soup";
+        break;
+    default:
+        dish = "nothing"; // If the current day of the week is not recognized, log "nothing"
+    }
+
+    console.log("Today's dish is " + dish + ".");
+
+2.  const date = new Date();
+    const dayOfWeek = date.getDay();
+    const month = date.getMonth() + 1; // Add 1 to the month to get the actual month number (January = 1, December = 12)
+
+    let dish;
+
+    if (month === 12 && dayOfWeek === 25) {
+    dish = "turkey";
+    } else {
+    switch(dayOfWeek) {
+        case 1:
+        case 4:
+        case 5:
+        dish = "falafel with salad";
+        break;
+        case 2:
+        case 3:
+        dish = "spinach";
+        break;
+        case 0:
+        case 6:
+        dish = "lentil soup";
+        break;
+        default:
+        dish = "nothing"; // If the current day of the week is not recognized, log "nothing"
+    }
+    }
+
+    console.log("Today's dish is " + dish + ".");
+

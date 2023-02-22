@@ -1,0 +1,11 @@
+1.  const voornaam = "thomas";
+    const achternaam = "klein";
+    const leeftijd = "15";
+    console.log(voornaam + achternaam + leeftijd);
+
+8.  const seizoen = "winter"
+    if (seizoen === winter){
+        console.log("zet ik de verwarming aan")
+    } else {
+        console.log("dans ik op de tafel")
+    }
