@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .klik {
+            background-color: blue;
+            width:100px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="grid-container_item grid-container_item a">
+        <div class="klik">a</div>
+        <div class="klik">b</div>
+        <div class="klik">c</div>
+    </div>
+    
+    <script>
+        const klikElements = document.querySelectorAll(".klik");
+        klikElements.forEach(function(element) {
+            element.addEventListener("click", function() {
+                console.log("geklikt");
+            });
+        });
+    </script>
+</body>
+</html>

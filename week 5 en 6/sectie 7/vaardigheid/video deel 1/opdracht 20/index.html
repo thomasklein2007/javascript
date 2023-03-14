@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #klik {
+            background-color: blue;
+            width: 100px
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="grid-container_item grid-container_item a">
+        <div id="klik">a</div>
+    </div>
+    <script>
+        document.getElementById("klik").onclick = functie
+        function functie(){
+            document.getElementById("klik").style.width = "200px";
+        }
+    </script>
+</body>
+</html>
