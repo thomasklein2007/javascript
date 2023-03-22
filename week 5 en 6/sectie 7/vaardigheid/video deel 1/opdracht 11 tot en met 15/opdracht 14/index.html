@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="grid-container">
+        <div id="grid-container_item-1">konijntje 0</div>
+        <div id="grid-container_item-2">konijntje 1</div>
+        <div id="grid-container_item-3">konijntje 4</div>
+        <div id="grid-container_item-4">konijntje 9</div>
+        <div id="grid-container_item-5">konijntje 16</div>
+        <div id="grid-container_item-6">konijntje 25</div>
+        <div id="grid-container_item-7">konijntje 36</div>
+    </div>
+
+    <script>
+        document.getElementById("grid-container_item-1").onclick  = functie
+        function functie(){
+            console.log("hello world")
+        }
+
+        document.getElementById("grid-container_item-5").onclick  = jsc
+        function jsc(){
+            for(let i = 0; i < 10; i++){
+                console.log("jsc")
+            }
+        }
+
+        document.getElementById("grid-container_item-3").onclick = drie
+        function drie(){
+            document.getElementById("grid-container_item-3").innerHTML = "jsc is de beste"
+        }
+
+    </script>
+</body>
+</html>
